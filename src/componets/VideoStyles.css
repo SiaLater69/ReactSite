@@ -1,0 +1,67 @@
+#video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+}
+.hero .content {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 52vh;
+}
+.hero .content h1 {
+  font-size: 5rem;
+  color: rgb(160, 240, 160);
+}
+
+.hero p {
+  font-size: 1.8rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  color: #fff;
+}
+
+.hero .btn {
+  margin: 0.5rem;
+}
+
+@media screen and (max-width: 940px) {
+  .content h1 {
+    font-size: 0.5rem;
+  }
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 1.6rem;
+  }
+}
+.typed-out {
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  animation: typing 1s steps(20, end) forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .typed-out {
+    font-size: 16px;
+  }
+}
