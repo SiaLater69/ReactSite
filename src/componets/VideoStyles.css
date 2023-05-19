@@ -19,7 +19,7 @@
   top: 52vh;
 }
 .hero .content h1 {
-  font-size: 5rem;
+  font-size: 3.5rem;
   color: rgb(160, 240, 160);
 }
 
@@ -36,14 +36,35 @@
 }
 
 @media screen and (max-width: 940px) {
-  .content h1 {
-    font-size: 0.5rem;
+ .hero .content h1 {
+    display: none;
   }
-  .content p {
+
+  .typed-outMobile{
+    font-size: 55px;
+    color: rgb(160, 240, 160);
+  }
+  .hero .content p {
     font-size: 1rem;
     margin-bottom: 1.6rem;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .hero{
+    background-image: url("../assets/CODING2.jpg");
+  }
+}
+
+
+/* desktop styling to remove mobile typed out */
+@media only screen  and (min-width: 950px) and (max-width: 1440px) {
+.typed-outMobile{
+  display: none;
+}
+ }
+
+
 .typed-out {
   overflow: hidden;
   border-right: 0.15em solid orange;
@@ -58,10 +79,5 @@
   }
   to {
     width: 100%;
-  }
-}
-@media only screen and (min-width: 1030px) and (max-width: 1366px) {
-  .typed-out {
-    font-size: 16px;
   }
 }

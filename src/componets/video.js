@@ -11,6 +11,7 @@ const Video = () => {
       </video>
       <div className="content">
         <h1 className="typed-out">Web Development!</h1>
+        <h2 className="typed-outMobile">Web Dev</h2>
         <p className="typed-out">Creating Web Applications</p>
         <div>
           <Link to="/Projects" className="btn">
