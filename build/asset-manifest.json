@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b7223cf.css",
+    "main.js": "/static/js/main.319b06a4.js",
+    "static/media/HelloWorld.mp4": "/static/media/HelloWorld.191dfdf0865653d639a6.mp4",
+    "static/media/CODING2.jpg": "/static/media/CODING2.6cdb10857eb4d8bc2e9c.jpg",
+    "static/media/CODING3.jpg": "/static/media/CODING3.74c722073815db924a6c.jpg",
+    "static/media/WEATHER.png": "/static/media/WEATHER.d0c62aaab201a4aeb5f3.png",
+    "index.html": "/index.html",
+    "main.9b7223cf.css.map": "/static/css/main.9b7223cf.css.map",
+    "main.319b06a4.js.map": "/static/js/main.319b06a4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b7223cf.css",
+    "static/js/main.319b06a4.js"
+  ]
+}

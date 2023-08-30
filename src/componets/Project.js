@@ -1,16 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Project.css";
+import SNAKE from "../assets/SNAKE.png";
+import WEATHER from "../assets/WEATHER.png";
 
 const Project = () => {
   return (
-    <div className="pricing">
+    <div className="project">
       <div className="card-container">
         <div className="card">
-          <div className="loader"></div>
+        <p></p>
+        <div className="loader"></div>
         </div>
         <div className="card">
-          <div className="loader"></div>
+        <div className="loader"></div>
         </div>
         <div className="card">
           <div className="loader"></div>

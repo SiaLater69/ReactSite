@@ -28,7 +28,8 @@
   font-weight: 200;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
-  color: #fff;
+  color: rgb(160, 240, 160);
+  font-size: larger;
 }
 
 .hero .btn {
@@ -52,7 +53,8 @@
 
 @media screen and (max-width: 1200px) {
   .hero{
-    background-image: url("../assets/CODING2.jpg");
+    background-image: url("../assets/CODING3.jpg");
+    width: 100%;
   }
 }
 
