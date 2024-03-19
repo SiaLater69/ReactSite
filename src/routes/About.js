@@ -9,7 +9,8 @@ const Training = () => {
       <Navbar />
       <HeroImage
         heading="Who I am"
-        text="My name is Siya and I have been doing front-end web development for about 3 years. I am passionate about creating beautiful and responsive web sites and web applications. I am alwys looking to improve and be the best version of myself"
+        text="Passionate and driven web developer with a proven track record of delivering high-quality solutions. Skilled in front-end web development, I excel in crafting responsive and user-friendly websites using technologies like React, Vue.js, and Tailwind CSS. My proficiency in Python extends beyond web development, encompassing data analysis and automation. With a keen eye for detail and a commitment to continuous learning, I am adept at diagnosing and resolving complex technical issues. Whether creating captivating user interfaces or troubleshooting hardware and software problems, I thrive on challenges and am dedicated to exceeding expectations.
+"
       />
       <Footer />
     </div>

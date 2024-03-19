@@ -1,5 +1,5 @@
 .hero-img {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.8);
   height: 50vh;
   width: 100%;
   position: relative;
@@ -24,14 +24,19 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .hero-img h1 {
   font-size: 2.4rem;
+  border-radius: 15px;
 }
 
 .hero-img p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 640px) {
